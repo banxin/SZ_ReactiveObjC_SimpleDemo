@@ -1,0 +1,10 @@
+
+platform :ios, '8.0'
+
+target 'SZ_ReactiveObjC_SimpleDemo' do
+
+  pod 'ReactiveObjC'
+  pod 'AFNetworking',                       '3.1.0'
+  pod 'YYKit',                              '1.0.9'
+
+end

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55B42E5FEAAC97F4B52E4EE /* libPods-SZ_ReactiveObjC_SimpleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1827AFFEEDE6C2AAD9DEF166 /* libPods-SZ_ReactiveObjC_SimpleDemo.a */; };
+		A9F59E2920188DCC00468859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E2820188DCC00468859 /* AppDelegate.m */; };
+		A9F59E3120188DCC00468859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F59E3020188DCC00468859 /* Assets.xcassets */; };
+		A9F59E3420188DCC00468859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F59E3220188DCC00468859 /* LaunchScreen.storyboard */; };
+		A9F59E3720188DCC00468859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E3620188DCC00468859 /* main.m */; };
+		A9F59E4120188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E4020188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.m */; };
+		A9F59E4C20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E4B20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.m */; };
+		A9F59E5B20188F7400468859 /* SZRACSimpleDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E5A20188F7400468859 /* SZRACSimpleDemoListViewController.m */; };
+		A9F59E6E2018A78C00468859 /* SZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E6A2018A78C00468859 /* SZPerson.m */; };
+		A9F59E6F2018A78C00468859 /* SZReactiveProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E6D2018A78C00468859 /* SZReactiveProgrammingViewController.m */; };
+		A9F59E752018A82A00468859 /* SZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E742018A82A00468859 /* SZBaseViewController.m */; };
+		A9F59E782018A85B00468859 /* SZRACBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E772018A85B00468859 /* SZRACBasicViewController.m */; };
+		A9F59E7C2018A90600468859 /* SZSimpleUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E7B2018A90600468859 /* SZSimpleUseViewController.m */; };
+		A9F59E7F2018AA2200468859 /* SZSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E7E2018AA2200468859 /* SZSimpleView.m */; };
+		A9F59E822018AF5E00468859 /* SZSimpleView2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E812018AF5E00468859 /* SZSimpleView2.m */; };
+		A9F59E892019A8E000468859 /* SZEasyTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E882019A8E000468859 /* SZEasyTestViewController.m */; };
+		A9F59E99201DB05200468859 /* SZCSDNDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E98201DB05200468859 /* SZCSDNDemoViewController.m */; };
+		A9F59E9D201EEFF700468859 /* SZSeemygoBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E9C201EEFF700468859 /* SZSeemygoBasicViewController.m */; };
+		A9F59EA0201F0B3800468859 /* SZSeemygoAdvanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E9F201F0B3800468859 /* SZSeemygoAdvanceViewController.m */; };
+		A9F59EA3201F191200468859 /* SZRAC&MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59EA2201F191200468859 /* SZRAC&MVVMViewController.m */; };
+		A9F59EA6201F1A1E00468859 /* SZLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59EA5201F1A1E00468859 /* SZLoginViewModel.m */; };
+		A9F59EA9201F1A2900468859 /* SZAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59EA8201F1A2900468859 /* SZAccount.m */; };
+		A9F59EAC201F4C3300468859 /* SZRAC&NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59EAB201F4C3300468859 /* SZRAC&NetworkViewController.m */; };
+		A9F59EAF201F4CD900468859 /* SZBook.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59EAE201F4CD900468859 /* SZBook.m */; };
+		A9F59EB2201F4D1B00468859 /* SZRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F59EB1201F4D1B00468859 /* SZRequestViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F59E3D20188DCC00468859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F59E1C20188DCC00468859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F59E2320188DCC00468859;
+			remoteInfo = SZ_ReactiveObjC_SimpleDemo;
+		};
+		A9F59E4820188DCC00468859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F59E1C20188DCC00468859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F59E2320188DCC00468859;
+			remoteInfo = SZ_ReactiveObjC_SimpleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1827AFFEEDE6C2AAD9DEF166 /* libPods-SZ_ReactiveObjC_SimpleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SZ_ReactiveObjC_SimpleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0C059FF0E3BDFC9068D6B8 /* Pods-SZ_ReactiveObjC_SimpleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZ_ReactiveObjC_SimpleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SZ_ReactiveObjC_SimpleDemo/Pods-SZ_ReactiveObjC_SimpleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A17AC65B3DA55E7DA8F31BDC /* Pods-SZ_ReactiveObjC_SimpleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZ_ReactiveObjC_SimpleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SZ_ReactiveObjC_SimpleDemo/Pods-SZ_ReactiveObjC_SimpleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A9F59E2420188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZ_ReactiveObjC_SimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F59E2720188DCC00468859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9F59E2820188DCC00468859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9F59E3020188DCC00468859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F59E3320188DCC00468859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F59E3520188DCC00468859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F59E3620188DCC00468859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F59E3C20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZ_ReactiveObjC_SimpleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F59E4020188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_ReactiveObjC_SimpleDemoTests.m; sourceTree = "<group>"; };
+		A9F59E4220188DCC00468859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F59E4720188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZ_ReactiveObjC_SimpleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F59E4B20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_ReactiveObjC_SimpleDemoUITests.m; sourceTree = "<group>"; };
+		A9F59E4D20188DCC00468859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F59E5920188F7400468859 /* SZRACSimpleDemoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRACSimpleDemoListViewController.h; sourceTree = "<group>"; };
+		A9F59E5A20188F7400468859 /* SZRACSimpleDemoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRACSimpleDemoListViewController.m; sourceTree = "<group>"; };
+		A9F59E6A2018A78C00468859 /* SZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZPerson.m; sourceTree = "<group>"; };
+		A9F59E6B2018A78C00468859 /* SZReactiveProgrammingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZReactiveProgrammingViewController.h; sourceTree = "<group>"; };
+		A9F59E6C2018A78C00468859 /* SZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZPerson.h; sourceTree = "<group>"; };
+		A9F59E6D2018A78C00468859 /* SZReactiveProgrammingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZReactiveProgrammingViewController.m; sourceTree = "<group>"; };
+		A9F59E732018A82A00468859 /* SZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBaseViewController.h; sourceTree = "<group>"; };
+		A9F59E742018A82A00468859 /* SZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBaseViewController.m; sourceTree = "<group>"; };
+		A9F59E762018A85B00468859 /* SZRACBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRACBasicViewController.h; sourceTree = "<group>"; };
+		A9F59E772018A85B00468859 /* SZRACBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRACBasicViewController.m; sourceTree = "<group>"; };
+		A9F59E7A2018A90600468859 /* SZSimpleUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSimpleUseViewController.h; sourceTree = "<group>"; };
+		A9F59E7B2018A90600468859 /* SZSimpleUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSimpleUseViewController.m; sourceTree = "<group>"; };
+		A9F59E7D2018AA2200468859 /* SZSimpleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSimpleView.h; sourceTree = "<group>"; };
+		A9F59E7E2018AA2200468859 /* SZSimpleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSimpleView.m; sourceTree = "<group>"; };
+		A9F59E802018AF5E00468859 /* SZSimpleView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSimpleView2.h; sourceTree = "<group>"; };
+		A9F59E812018AF5E00468859 /* SZSimpleView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSimpleView2.m; sourceTree = "<group>"; };
+		A9F59E872019A8E000468859 /* SZEasyTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZEasyTestViewController.h; sourceTree = "<group>"; };
+		A9F59E882019A8E000468859 /* SZEasyTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZEasyTestViewController.m; sourceTree = "<group>"; };
+		A9F59E97201DB05200468859 /* SZCSDNDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCSDNDemoViewController.h; sourceTree = "<group>"; };
+		A9F59E98201DB05200468859 /* SZCSDNDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCSDNDemoViewController.m; sourceTree = "<group>"; };
+		A9F59E9B201EEFF700468859 /* SZSeemygoBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSeemygoBasicViewController.h; sourceTree = "<group>"; };
+		A9F59E9C201EEFF700468859 /* SZSeemygoBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSeemygoBasicViewController.m; sourceTree = "<group>"; };
+		A9F59E9E201F0B3800468859 /* SZSeemygoAdvanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSeemygoAdvanceViewController.h; sourceTree = "<group>"; };
+		A9F59E9F201F0B3800468859 /* SZSeemygoAdvanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSeemygoAdvanceViewController.m; sourceTree = "<group>"; };
+		A9F59EA1201F191200468859 /* SZRAC&MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZRAC&MVVMViewController.h"; sourceTree = "<group>"; };
+		A9F59EA2201F191200468859 /* SZRAC&MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SZRAC&MVVMViewController.m"; sourceTree = "<group>"; };
+		A9F59EA4201F1A1E00468859 /* SZLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZLoginViewModel.h; sourceTree = "<group>"; };
+		A9F59EA5201F1A1E00468859 /* SZLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZLoginViewModel.m; sourceTree = "<group>"; };
+		A9F59EA7201F1A2900468859 /* SZAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAccount.h; sourceTree = "<group>"; };
+		A9F59EA8201F1A2900468859 /* SZAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAccount.m; sourceTree = "<group>"; };
+		A9F59EAA201F4C3300468859 /* SZRAC&NetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZRAC&NetworkViewController.h"; sourceTree = "<group>"; };
+		A9F59EAB201F4C3300468859 /* SZRAC&NetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SZRAC&NetworkViewController.m"; sourceTree = "<group>"; };
+		A9F59EAD201F4CD900468859 /* SZBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBook.h; sourceTree = "<group>"; };
+		A9F59EAE201F4CD900468859 /* SZBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBook.m; sourceTree = "<group>"; };
+		A9F59EB0201F4D1B00468859 /* SZRequestViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRequestViewModel.h; sourceTree = "<group>"; };
+		A9F59EB1201F4D1B00468859 /* SZRequestViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRequestViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F59E2120188DCC00468859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55B42E5FEAAC97F4B52E4EE /* libPods-SZ_ReactiveObjC_SimpleDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F59E3920188DCC00468859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F59E4420188DCC00468859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F21BA3AB0567C123A5883B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1827AFFEEDE6C2AAD9DEF166 /* libPods-SZ_ReactiveObjC_SimpleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94723EB86B6E2DD21CFFA593 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B0C059FF0E3BDFC9068D6B8 /* Pods-SZ_ReactiveObjC_SimpleDemo.debug.xcconfig */,
+				A17AC65B3DA55E7DA8F31BDC /* Pods-SZ_ReactiveObjC_SimpleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9F59E1B20188DCC00468859 = {
+			isa = PBXGroup;
+			children = (
+				A9F59E2620188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo */,
+				A9F59E3F20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests */,
+				A9F59E4A20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests */,
+				A9F59E2520188DCC00468859 /* Products */,
+				94723EB86B6E2DD21CFFA593 /* Pods */,
+				2F21BA3AB0567C123A5883B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F59E2520188DCC00468859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E2420188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo.app */,
+				A9F59E3C20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.xctest */,
+				A9F59E4720188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F59E2620188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E9A201EEFE200468859 /* RACSeemygoDemo */,
+				A9F59E96201DB03F00468859 /* RACCSDNDemo */,
+				A9F59E862019A8C900468859 /* RACEasyTest */,
+				A9F59E792018A8FC00468859 /* RACSimpleUse */,
+				A9F59E682018A78C00468859 /* RACBasic */,
+				A9F59E692018A78C00468859 /* ReactiveProgramming */,
+				A9F59E2720188DCC00468859 /* AppDelegate.h */,
+				A9F59E2820188DCC00468859 /* AppDelegate.m */,
+				A9F59E5920188F7400468859 /* SZRACSimpleDemoListViewController.h */,
+				A9F59E5A20188F7400468859 /* SZRACSimpleDemoListViewController.m */,
+				A9F59E732018A82A00468859 /* SZBaseViewController.h */,
+				A9F59E742018A82A00468859 /* SZBaseViewController.m */,
+				A9F59E3020188DCC00468859 /* Assets.xcassets */,
+				A9F59E3220188DCC00468859 /* LaunchScreen.storyboard */,
+				A9F59E3520188DCC00468859 /* Info.plist */,
+				A9F59E3620188DCC00468859 /* main.m */,
+			);
+			path = SZ_ReactiveObjC_SimpleDemo;
+			sourceTree = "<group>";
+		};
+		A9F59E3F20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E4020188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.m */,
+				A9F59E4220188DCC00468859 /* Info.plist */,
+			);
+			path = SZ_ReactiveObjC_SimpleDemoTests;
+			sourceTree = "<group>";
+		};
+		A9F59E4A20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E4B20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.m */,
+				A9F59E4D20188DCC00468859 /* Info.plist */,
+			);
+			path = SZ_ReactiveObjC_SimpleDemoUITests;
+			sourceTree = "<group>";
+		};
+		A9F59E682018A78C00468859 /* RACBasic */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E762018A85B00468859 /* SZRACBasicViewController.h */,
+				A9F59E772018A85B00468859 /* SZRACBasicViewController.m */,
+			);
+			path = RACBasic;
+			sourceTree = "<group>";
+		};
+		A9F59E692018A78C00468859 /* ReactiveProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E6C2018A78C00468859 /* SZPerson.h */,
+				A9F59E6A2018A78C00468859 /* SZPerson.m */,
+				A9F59E6B2018A78C00468859 /* SZReactiveProgrammingViewController.h */,
+				A9F59E6D2018A78C00468859 /* SZReactiveProgrammingViewController.m */,
+			);
+			path = ReactiveProgramming;
+			sourceTree = "<group>";
+		};
+		A9F59E792018A8FC00468859 /* RACSimpleUse */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E7A2018A90600468859 /* SZSimpleUseViewController.h */,
+				A9F59E7B2018A90600468859 /* SZSimpleUseViewController.m */,
+				A9F59E7D2018AA2200468859 /* SZSimpleView.h */,
+				A9F59E7E2018AA2200468859 /* SZSimpleView.m */,
+				A9F59E802018AF5E00468859 /* SZSimpleView2.h */,
+				A9F59E812018AF5E00468859 /* SZSimpleView2.m */,
+			);
+			path = RACSimpleUse;
+			sourceTree = "<group>";
+		};
+		A9F59E862019A8C900468859 /* RACEasyTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E872019A8E000468859 /* SZEasyTestViewController.h */,
+				A9F59E882019A8E000468859 /* SZEasyTestViewController.m */,
+			);
+			path = RACEasyTest;
+			sourceTree = "<group>";
+		};
+		A9F59E96201DB03F00468859 /* RACCSDNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E97201DB05200468859 /* SZCSDNDemoViewController.h */,
+				A9F59E98201DB05200468859 /* SZCSDNDemoViewController.m */,
+			);
+			path = RACCSDNDemo;
+			sourceTree = "<group>";
+		};
+		A9F59E9A201EEFE200468859 /* RACSeemygoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9F59E9B201EEFF700468859 /* SZSeemygoBasicViewController.h */,
+				A9F59E9C201EEFF700468859 /* SZSeemygoBasicViewController.m */,
+				A9F59E9E201F0B3800468859 /* SZSeemygoAdvanceViewController.h */,
+				A9F59E9F201F0B3800468859 /* SZSeemygoAdvanceViewController.m */,
+				A9F59EA1201F191200468859 /* SZRAC&MVVMViewController.h */,
+				A9F59EA2201F191200468859 /* SZRAC&MVVMViewController.m */,
+				A9F59EA4201F1A1E00468859 /* SZLoginViewModel.h */,
+				A9F59EA5201F1A1E00468859 /* SZLoginViewModel.m */,
+				A9F59EA7201F1A2900468859 /* SZAccount.h */,
+				A9F59EA8201F1A2900468859 /* SZAccount.m */,
+				A9F59EAA201F4C3300468859 /* SZRAC&NetworkViewController.h */,
+				A9F59EAB201F4C3300468859 /* SZRAC&NetworkViewController.m */,
+				A9F59EB0201F4D1B00468859 /* SZRequestViewModel.h */,
+				A9F59EB1201F4D1B00468859 /* SZRequestViewModel.m */,
+				A9F59EAD201F4CD900468859 /* SZBook.h */,
+				A9F59EAE201F4CD900468859 /* SZBook.m */,
+			);
+			path = RACSeemygoDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F59E2320188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F59E5020188DCC00468859 /* Build configuration list for PBXNativeTarget "SZ_ReactiveObjC_SimpleDemo" */;
+			buildPhases = (
+				511E3921A9DDD195A53AF617 /* [CP] Check Pods Manifest.lock */,
+				A9F59E2020188DCC00468859 /* Sources */,
+				A9F59E2120188DCC00468859 /* Frameworks */,
+				A9F59E2220188DCC00468859 /* Resources */,
+				2305CFBEC023307BDAD6287A /* [CP] Embed Pods Frameworks */,
+				A2803A669CF0B985216F4FE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZ_ReactiveObjC_SimpleDemo;
+			productName = SZ_ReactiveObjC_SimpleDemo;
+			productReference = A9F59E2420188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F59E3B20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F59E5320188DCC00468859 /* Build configuration list for PBXNativeTarget "SZ_ReactiveObjC_SimpleDemoTests" */;
+			buildPhases = (
+				A9F59E3820188DCC00468859 /* Sources */,
+				A9F59E3920188DCC00468859 /* Frameworks */,
+				A9F59E3A20188DCC00468859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F59E3E20188DCC00468859 /* PBXTargetDependency */,
+			);
+			name = SZ_ReactiveObjC_SimpleDemoTests;
+			productName = SZ_ReactiveObjC_SimpleDemoTests;
+			productReference = A9F59E3C20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9F59E4620188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F59E5620188DCC00468859 /* Build configuration list for PBXNativeTarget "SZ_ReactiveObjC_SimpleDemoUITests" */;
+			buildPhases = (
+				A9F59E4320188DCC00468859 /* Sources */,
+				A9F59E4420188DCC00468859 /* Frameworks */,
+				A9F59E4520188DCC00468859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F59E4920188DCC00468859 /* PBXTargetDependency */,
+			);
+			name = SZ_ReactiveObjC_SimpleDemoUITests;
+			productName = SZ_ReactiveObjC_SimpleDemoUITests;
+			productReference = A9F59E4720188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F59E1C20188DCC00468859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SZ;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yanl;
+				TargetAttributes = {
+					A9F59E2320188DCC00468859 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A9F59E3B20188DCC00468859 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9F59E2320188DCC00468859;
+					};
+					A9F59E4620188DCC00468859 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9F59E2320188DCC00468859;
+					};
+				};
+			};
+			buildConfigurationList = A9F59E1F20188DCC00468859 /* Build configuration list for PBXProject "SZ_ReactiveObjC_SimpleDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F59E1B20188DCC00468859;
+			productRefGroup = A9F59E2520188DCC00468859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F59E2320188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo */,
+				A9F59E3B20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests */,
+				A9F59E4620188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F59E2220188DCC00468859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F59E3420188DCC00468859 /* LaunchScreen.storyboard in Resources */,
+				A9F59E3120188DCC00468859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F59E3A20188DCC00468859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F59E4520188DCC00468859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2305CFBEC023307BDAD6287A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZ_ReactiveObjC_SimpleDemo/Pods-SZ_ReactiveObjC_SimpleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511E3921A9DDD195A53AF617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SZ_ReactiveObjC_SimpleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2803A669CF0B985216F4FE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZ_ReactiveObjC_SimpleDemo/Pods-SZ_ReactiveObjC_SimpleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F59E2020188DCC00468859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F59E752018A82A00468859 /* SZBaseViewController.m in Sources */,
+				A9F59E782018A85B00468859 /* SZRACBasicViewController.m in Sources */,
+				A9F59EA3201F191200468859 /* SZRAC&MVVMViewController.m in Sources */,
+				A9F59E3720188DCC00468859 /* main.m in Sources */,
+				A9F59EAF201F4CD900468859 /* SZBook.m in Sources */,
+				A9F59E2920188DCC00468859 /* AppDelegate.m in Sources */,
+				A9F59E822018AF5E00468859 /* SZSimpleView2.m in Sources */,
+				A9F59E5B20188F7400468859 /* SZRACSimpleDemoListViewController.m in Sources */,
+				A9F59EA0201F0B3800468859 /* SZSeemygoAdvanceViewController.m in Sources */,
+				A9F59E892019A8E000468859 /* SZEasyTestViewController.m in Sources */,
+				A9F59E6F2018A78C00468859 /* SZReactiveProgrammingViewController.m in Sources */,
+				A9F59EAC201F4C3300468859 /* SZRAC&NetworkViewController.m in Sources */,
+				A9F59E7F2018AA2200468859 /* SZSimpleView.m in Sources */,
+				A9F59EB2201F4D1B00468859 /* SZRequestViewModel.m in Sources */,
+				A9F59E6E2018A78C00468859 /* SZPerson.m in Sources */,
+				A9F59E99201DB05200468859 /* SZCSDNDemoViewController.m in Sources */,
+				A9F59E9D201EEFF700468859 /* SZSeemygoBasicViewController.m in Sources */,
+				A9F59E7C2018A90600468859 /* SZSimpleUseViewController.m in Sources */,
+				A9F59EA6201F1A1E00468859 /* SZLoginViewModel.m in Sources */,
+				A9F59EA9201F1A2900468859 /* SZAccount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F59E3820188DCC00468859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F59E4120188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F59E4320188DCC00468859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F59E4C20188DCC00468859 /* SZ_ReactiveObjC_SimpleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F59E3E20188DCC00468859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F59E2320188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo */;
+			targetProxy = A9F59E3D20188DCC00468859 /* PBXContainerItemProxy */;
+		};
+		A9F59E4920188DCC00468859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F59E2320188DCC00468859 /* SZ_ReactiveObjC_SimpleDemo */;
+			targetProxy = A9F59E4820188DCC00468859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F59E3220188DCC00468859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F59E3320188DCC00468859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F59E4E20188DCC00468859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9F59E4F20188DCC00468859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F59E5120188DCC00468859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0C059FF0E3BDFC9068D6B8 /* Pods-SZ_ReactiveObjC_SimpleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_ReactiveObjC_SimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-ReactiveObjC-SimpleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F59E5220188DCC00468859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17AC65B3DA55E7DA8F31BDC /* Pods-SZ_ReactiveObjC_SimpleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_ReactiveObjC_SimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-ReactiveObjC-SimpleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9F59E5420188DCC00468859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_ReactiveObjC_SimpleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-ReactiveObjC-SimpleDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_ReactiveObjC_SimpleDemo.app/SZ_ReactiveObjC_SimpleDemo";
+			};
+			name = Debug;
+		};
+		A9F59E5520188DCC00468859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_ReactiveObjC_SimpleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-ReactiveObjC-SimpleDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_ReactiveObjC_SimpleDemo.app/SZ_ReactiveObjC_SimpleDemo";
+			};
+			name = Release;
+		};
+		A9F59E5720188DCC00468859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_ReactiveObjC_SimpleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-ReactiveObjC-SimpleDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZ_ReactiveObjC_SimpleDemo;
+			};
+			name = Debug;
+		};
+		A9F59E5820188DCC00468859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_ReactiveObjC_SimpleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-ReactiveObjC-SimpleDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZ_ReactiveObjC_SimpleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F59E1F20188DCC00468859 /* Build configuration list for PBXProject "SZ_ReactiveObjC_SimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F59E4E20188DCC00468859 /* Debug */,
+				A9F59E4F20188DCC00468859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F59E5020188DCC00468859 /* Build configuration list for PBXNativeTarget "SZ_ReactiveObjC_SimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F59E5120188DCC00468859 /* Debug */,
+				A9F59E5220188DCC00468859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F59E5320188DCC00468859 /* Build configuration list for PBXNativeTarget "SZ_ReactiveObjC_SimpleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F59E5420188DCC00468859 /* Debug */,
+				A9F59E5520188DCC00468859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F59E5620188DCC00468859 /* Build configuration list for PBXNativeTarget "SZ_ReactiveObjC_SimpleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F59E5720188DCC00468859 /* Debug */,
+				A9F59E5820188DCC00468859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F59E1C20188DCC00468859 /* Project object */;
+}
